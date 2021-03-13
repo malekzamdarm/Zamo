@@ -6,7 +6,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,re
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-print("FB ZaMo")
+print("FB GRABER")
 os.system('clear')
 
 
@@ -47,7 +47,16 @@ def anime(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(000.1)
- 
+
+
+#### LOGO ####
+logo = """
+ \x1b[31;1m   _____ _____  _____          _____   
+ \x1b[31;1m  / ____|  __ \|  __ \   /\   |  __ \  
+ \x1b[31;1m | |  __| |__) | |  | | /  \  | |__) | 
+\x1b[31;1m  | | |_ |  _  /| |  | |/ /\ \ |  _  /  
+\x1b[31;1m  | |__| | | \ \| |__| / ____ \| | \ \  
+\x1b[31;1m   \_____|_|  \_\_____/_/    \_\_|  \_\ 
                                        
 """
 def tik():
@@ -68,16 +77,24 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
-\x1b[31;1m@         !  𝑇𝑂𝑋𝐼𝐶 ༒ ZamDar                @
-\x1b[31;1m@              Version: 8                @                
+\x1b[31;1m@         !  𝑇𝑂𝑋𝐼𝐶 ༒ 𝐺𝑅𝐷𝐴𝑅                @
+\x1b[31;1m@              Version: 1                @                
 \x1b[31;1m@              FB HACKER                 @
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
 """
+
+RH = """
+ \x1b[31;1m   _____ _____  _____          _____   
+ \x1b[37;1m  / ____|  __ \|  __ \   /\   |  __ \  
+ \x1b[31;1m | |  __| |__) | |  | | /  \  | |__) | 
+\x1b[37;1m  | | |_ |  _  /| |  | |/ /\ \ |  _  /  
+\x1b[31;1m  | |__| | | \ \| |__| / ____ \| | \ \  
+\x1b[37;1m   \_____|_|  \_\_____/_/    \_\_|  \_\ 
                                        
 """
 print(RH)
-CorrectUsername = "zamdar"
-CorrectPassword = "zamdar"
+CorrectUsername = "hama"
+CorrectPassword = "goold"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\x1b[34;1m👨‍ \x1b[1;95mID \x1b[31;1m@Daxilka>>\x1b[1;91m")
